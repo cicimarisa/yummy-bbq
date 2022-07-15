@@ -3,6 +3,7 @@ body {
     text-align: center;
     font-size: 1rem;
     margin: 0 auto;
+    line-height: 1.5;
 }
 
 /*------------
@@ -107,7 +108,7 @@ section.d-flex {
     }
 
     .section-info .container {
-        width: 40%;
+        width: 50%;
     }
 
     .d-flex {
@@ -131,11 +132,12 @@ section.d-flex {
     position: relative;
 }
 
-.section-banner-info {
+.section-banner-info.small{
     position: absolute;
     top: 3px;
     left: 0;
     right: 0;
+    margin: 0;
 }
 
 /*------------
