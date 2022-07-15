@@ -19,12 +19,8 @@ h2 {
     font-size: 1.3125rem;
 }
 
-small {
+.small {
     font-size: 0.625rem;
-}
-
-small p {
-    margin: 0;
 }
 
 strong {
@@ -96,6 +92,10 @@ section.d-flex {
     justify-content: center;
 }
 
+.d-block{
+    display: block;
+}
+
 .container {
     width: 60%;
 }
@@ -109,6 +109,7 @@ section.d-flex {
     .section-info .container {
         width: 40%;
     }
+
     .d-flex {
         flex-direction: row;
     }
