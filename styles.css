@@ -1,0 +1,176 @@
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+/*------------
+==Typography==
+--------------*/
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.3125rem;
+}
+
+small {
+    font-size: 0.625rem;
+}
+
+small p {
+    margin: 0;
+}
+
+strong {
+    font-weight: 900;
+}
+
+.section-banner {
+    color: #ffffff;
+}
+
+.section-info {
+    color: #404040;
+}
+
+h2,
+.register {
+    margin: .2em;
+}
+
+.join-us,
+.register,
+.border-top {
+    background: linear-gradient(90deg, #ea1010 20%, #cd7b00);
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.border-top {
+    border-top: 3px solid #ea1010;
+}
+
+@media (min-width: 750px) {
+    body {
+        font-size: 1.125rem;
+    }
+
+    h1,
+    h2 {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+}
+
+/*------------
+====Layout====
+--------------*/
+.section-banner {
+    background: url(bbq-min.png);
+    background-size: cover;
+}
+
+section.d-flex {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 60%;
+}
+
+
+@media (min-width: 750px) {
+    .section-banner .container {
+        width: 50%;
+    }
+
+    .section-info .container {
+        width: 40%;
+    }
+    .d-flex {
+        flex-direction: row;
+    }
+
+    .col-1 {
+        width: 60%;
+    }
+
+    .col-2 {
+        width: 40%;
+    }
+}
+
+/*------------
+====Content====
+--------------*/
+
+.section-banner {
+    position: relative;
+}
+
+.section-banner-info {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    right: 0;
+}
+
+/*------------
+====Form====
+--------------*/
+
+.input,
+.generic {
+    padding: .75em 1em;
+    border-radius: .5em;
+    border: .7px solid #404040;
+    margin: 0 auto 1em auto;
+    font-size: .8em;
+    display: block;
+    box-sizing: border-box;
+    width: 80%;
+}
+
+.input {
+    font-family: inherit;
+}
+
+.generic {
+    text-transform: uppercase;
+    border: none;
+}
+
+.modifier {
+    background: linear-gradient(90deg, #ea1010 20%, #cd7b00);
+    color: #ffffff;
+}
+
+@media (min-width: 750px) {
+
+    .input,
+    .generic {
+        min-width: 60%;
+    }
+}
